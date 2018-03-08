@@ -1,0 +1,31 @@
+// Base App Structure
+.app-container {
+  font: 100% $font;
+  background-color: $color-background;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+  .header-row {
+      background-color: #fff;
+      width: 100vw;
+      height: 7vh;
+      box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
+      z-index: 100;
+  }
+
+  .body-row {
+      width: 100vw;
+      height: 100vh;
+      display: flex; //font-size: 14px;
+      line-height: 16px;
+      overflow: hidden;
+  }
+
+.content-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
