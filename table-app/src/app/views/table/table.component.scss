@@ -1,0 +1,33 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.mat-table {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-height: 60vh;
+}
+
+.mat-column-id {
+    flex: 1 0 10%;
+}
+
+.mat-column-email {
+    flex: 3 0 30%;
+}
+
+.mat-column-name {
+    flex: 2 0 20%;
+}
+
+.mat-column-company {
+    flex: 2 1 20%;
+}
+
+.mat-column-created {
+    flex: 2 0 10%;
+}

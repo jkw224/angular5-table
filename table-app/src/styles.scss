@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+// Colors
+$color-primary: #E32A97;
+$color-primary-light: #ec6fb9;
+$color-secondary: #2a97e3;
+$color-dark: #191919;
+$color-medium: #333333;
+$color-medium-light: #5b5b5b;
+$color-light: #848484;
+$color-light-extra: #adadad;
+$color-background: #FBFBFB;
+$color-sidebar: #333333;
+$color-divider: #e2e2e2;
+$color-even-row: #eaeaea;
+$color-info: #7F65C0;
+$color-success: #8DC051;
+$color-warning: #ffb400;
+$color-danger: #c4183c;

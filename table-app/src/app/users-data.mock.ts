@@ -1,5 +1,5 @@
 export class MockData {
-    public static events: any = [
+    public static users: any = [
         {'id':'393887','email':'famousfranko@gmail.com','fname':'Frank','lname':'Nielsen','isCompany':'0','company':'','created':'2017-11-18 00:00:00'},
     	{'id':'394970','email':'businessopp4you@gmail.com','fname':'Shelia','lname':'Smith1','isCompany':'0','company':'','created':'2017-11-18 00:00:00'},
     	{'id':'398585','email':'fmw0209@gmail.com','fname':'Florence','lname':'Williams','isCompany':'0','company':'','created':'2017-11-18 00:00:00'},
@@ -100,5 +100,6 @@ export class MockData {
     	{'id':'504023','email':'scruz01234@gmail.com','fname':'Sierra','lname':'Cruz','isCompany':'0','company':'','created':'2017-11-18 00:00:00'},
     	{'id':'504025','email':'apadams45@gmail.com','fname':'Adam','lname':'Adams','isCompany':'0','company':'','created':'2017-11-18 00:00:00'},
         {'id':'504026','email':'dustinams@hotmail.com','fname':'Dustin','lname':'Smith','isCompany':'0','company':'','created':'2017-11-18 00:00:00'}
-    ]
+    ];
+    constructor() {}
 }
