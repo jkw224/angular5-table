@@ -1,31 +1,42 @@
 // Base App Structure
-.app-container {
-  font: 100% $font;
-  background-color: $color-background;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-  .header-row {
-      background-color: #fff;
-      width: 100vw;
-      height: 7vh;
-      box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
-      z-index: 100;
-  }
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 
-  .body-row {
-      width: 100vw;
-      height: 100vh;
-      display: flex; //font-size: 14px;
-      line-height: 16px;
-      overflow: hidden;
-  }
+    .header-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+        height: 10vh;
+        box-shadow: 4px 0 7px rgb(231, 230, 230);;
+        margin: 2px 1.5vw 2vw 1.5vw;
+        z-index: 100;
+    }
+
+    .body-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
 
 .content-container {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 96vw;
+}
+
+.user-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }

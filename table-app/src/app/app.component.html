@@ -1,7 +1,12 @@
 <div class="app-container">
+    <div class="header-row mat-elevation-z2">
+        <h1>{{ title }}</h1>
+    </div>
     <div class="body-row">
         <div class="content-container">
-
+            <div class="user-table">
+                <app-table class="user-table" [userData]="users"></app-table>
+            </div>
         </div>
     </div>
 </div>
