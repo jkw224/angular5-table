@@ -1,5 +1,6 @@
 # TableApp
-Angular 5 application: table with filtering and search functionality
+Angular 5 application: table with filtering and search functionality.
+
 This project was generated with Angular CLI version 1.7.3.
 
 # Development server
