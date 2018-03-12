@@ -1,5 +1,5 @@
 # TableApp
-Angular 5 application: table with filtering and search functionality. Built to apply for job at [Rural Data Centers](http://ruraldc.co/)
+Angular 5 application: table with filtering and search functionality. Built to apply for job at [Rural Data Centers](http://ruraldc.co/).
 
 This project was generated with Angular CLI version 1.7.3.
 
